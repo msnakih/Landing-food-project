@@ -1,0 +1,245 @@
+*{
+    margin: 0; padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*hero area*/
+
+.hero-section{
+    margin-top: 5vw;
+    width: 1440px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap:0px;
+    
+}
+
+.headline{
+    color: #FBA24F;
+    font-size: 1.1em;
+}
+.headline-text {
+ padding: 8vw;
+}
+
+.headline-text h1 {
+    font-size: 3.1em;
+    color: #575757;
+   }
+
+ .hero-para{
+    color: #828282;
+     padding-top: 2vw;
+     font-size:1.2em;
+     font-weight: 350;
+     
+ }
+ 
+ .btn-btn{
+    text-decoration: none;
+    color: white;
+    padding: 1vw 2vw;
+    margin-top: 3vw;
+    border-radius: 40px;
+    display: inline-block;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px
+ }
+
+.hero-image img{
+    width: 100%;
+}
+/*about me*/
+.about-part{
+    background-image:url("/assets/images/back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 665px;
+    
+
+}
+.about-me{
+  
+    width: 1360px;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.about-image img{
+    width: 50%;
+    height: 570px;
+    padding:6vw 0 0 8vw;
+}
+
+.about-text{
+    padding-right: 8vw;
+}
+.about-text h2{
+    color: #828282;
+    font-size: 2.5em;
+    
+}
+.about-text p{
+    padding-top: 3vw;
+    line-height: 1.6;
+    font-weight: 400;
+}
+/*recipe headline*/
+.my-recipes{
+    padding: 0px;
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.my-recipes h2{
+    color: #828282;
+    font-size: 35px;
+    margin-top: 8vw;
+    
+}
+.my-recipes p{
+    margin-top: 2vw;
+    font-weight: 400;
+    line-height: 1.8;
+
+}
+
+/*blog post cardf*/
+
+.blog-post-area{
+  padding-left: 15%; 
+  padding-right: 15%; 
+  margin-top: 5vw;  
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.blog-post-1{
+    height: 380px;
+    width:377px;
+    padding: 20px;
+    margin-right: 5vw;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 7%);
+    
+}
+
+.blog-post-1 img{
+    width: 100%;
+    
+
+}
+
+.blog-post-1 h3{
+    font-size:28px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+
+}
+
+  .blog-post-2{
+    height: 380px;
+      width:377px;
+      margin-right: 5vw;
+      padding: 20px;
+      border-radius: 5%;
+      box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 7%);
+     
+  }
+  
+  .blog-post-2 img{
+      width: 100%;
+      
+  
+  }
+  
+  .blog-post-2 h3{
+      font-size:28px;
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+      
+  
+  }
+
+  .blog-post-3{
+    height: 380px;
+    width:377px;
+    padding: 20px;
+    margin-right: 5vw;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 7%);
+    
+}
+
+.blog-post-3 img{
+    width: 100%;
+    
+
+}
+
+.blog-post-3 h3{
+    font-size:28px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+
+}
+/*social media card*/
+.social-media{
+    margin-top: 8vw;
+    width: 1239px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 7%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-media h4{
+    font-size: 2.5em;
+}
+
+/*footer-are*/
+
+.sub-footer-area{
+  background-color: rgb(36, 36, 36);
+  color: white;
+  margin-top: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+  text-align: center
+  ;
+  
+}
+
+.sub-footer-area h5{
+    font-size: 2em;  
+}
+.footer-logo-text{
+    color: tomato;
+}
+
+.footer-credit-area{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-weight: 300;
+    color: beige;
+  }
